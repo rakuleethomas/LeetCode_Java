@@ -5,6 +5,8 @@
 ///////////////////////////////////////////////////////////////
 class Solution {
   public int singleNumber(int[] nums) {
+      // if a number found in the input array, append it.
+      // if a number already exists, remove it.
     List<Integer> no_duplicate_list = new ArrayList<>();
 
     for (int i : nums) {
